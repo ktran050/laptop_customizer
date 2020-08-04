@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Main features={this.props.features} />
+        <Main />
       </div>
     );
   }

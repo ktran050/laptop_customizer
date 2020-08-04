@@ -36,11 +36,7 @@ class Main extends React.Component {
   render() {
     return (
       <main>
-        <Form
-          features={this.props.features}
-          state={this.state}
-          onUpdateFeature={this.handleUpdateFeature}
-        />
+        <Form state={this.state} onUpdateFeature={this.handleUpdateFeature} />
 
         <Summary state={this.state} />
       </main>
